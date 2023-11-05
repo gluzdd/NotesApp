@@ -32,3 +32,4 @@ def menu():
         if choice.isdigit() and 0 < int(choice) < len(text.main_menu):
             return int(choice)
         print(text.input_menu_error)
+

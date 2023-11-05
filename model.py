@@ -51,3 +51,4 @@ def delete_note(note_id):
             print("Заметка успешно удалена")
             return note_id
     print(f"Заметка с таким {note_id} ID не найдена")
+
